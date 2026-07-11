@@ -1,0 +1,83 @@
+/* Design Tokens - Auto-generated */
+/* Do not edit directly - modify tokens.json instead */
+
+/* === PRIMITIVES === */
+:root {
+  --primitive-color-ceramic-50: #FBF6EC;
+  --primitive-color-ceramic-100: #F4E9D4;
+  --primitive-color-ceramic-300: #E1CEA3;
+  --primitive-color-ceramic-500: #9C8B6C;
+  --primitive-color-ceramic-900: #2A2116;
+  --primitive-color-olive-500: #6E7A45;
+  --primitive-color-olive-700: #454E29;
+  --primitive-color-olive-900: #232712;
+  --primitive-color-paprika-500: #D9552B;
+  --primitive-color-paprika-700: #9E3A1B;
+  --primitive-color-paprika-900: #55190A;
+  --primitive-color-wine-400: #8C2F42;
+  --primitive-font-display: var(--font-dm-serif), 'DM Serif Display', Georgia, serif;
+  --primitive-font-sans: var(--font-manrope), 'Manrope', system-ui, sans-serif;
+  --primitive-font-mono: var(--font-overpass-mono), 'Overpass Mono', monospace;
+  --primitive-motion-duration-micro: 160ms;
+  --primitive-motion-duration-base: 300ms;
+  --primitive-motion-duration-reveal: 0.9s;
+  --primitive-motion-duration-plate: 0.7s;
+  --primitive-motion-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --primitive-motion-ease-plate: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --primitive-tracking-display: 0em;
+  --primitive-tracking-label: 0.18em;
+}
+
+/* === SEMANTIC === */
+:root {
+  --background: #FBF6EC;
+  --foreground: #2A2116;
+  --card: #F4E9D4;
+  --card-foreground: #2A2116;
+  --popover: #FBF6EC;
+  --popover-foreground: #2A2116;
+  --primary: #2A2116;
+  --primary-foreground: #FBF6EC;
+  --secondary: #F4E9D4;
+  --secondary-foreground: #2A2116;
+  --muted: #F4E9D4;
+  --muted-foreground: #9C8B6C;
+  --accent: #E1CEA3;
+  --accent-foreground: #2A2116;
+  --destructive: #9E3A1B;
+  --border: #E1CEA3;
+  --input: #E1CEA3;
+  --ring: #D9552B;
+  --radius: 1.1rem;
+  --olive: #6E7A45;
+  --olive-dim: #232712;
+  --paprika: #D9552B;
+  --wine: #8C2F42;
+  --surface-line: #E1CEA3;
+  --type-display: var(--font-dm-serif), 'DM Serif Display', Georgia, serif;
+  --type-body: var(--font-manrope), 'Manrope', system-ui, sans-serif;
+  --type-label: var(--font-overpass-mono), 'Overpass Mono', monospace;
+  --ease-reveal: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-plate: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-micro: 160ms;
+  --duration-base: 300ms;
+  --duration-reveal: 0.9s;
+  --duration-plate: 0.7s;
+  --tracking-display: 0em;
+  --tracking-label: 0.18em;
+}
+
+/* === COMPONENTS === */
+:root {
+  --hero-title-size: clamp(2.75rem, 7vw, 5.75rem);
+  --hero-title-leading: 1.04;
+  --hero-kicker-size: 0.7rem;
+  --button-primary-bg: #2A2116;
+  --button-primary-fg: #FBF6EC;
+  --button-primary-hover-bg: #D9552B;
+  --button-primary-hover-fg: #FBF6EC;
+  --button-ghost-border: #E1CEA3;
+  --button-ghost-hover-border: #6E7A45;
+  --plate-rim-color: #FBF6EC;
+  --plate-shadow: 0 24px 48px -20px rgba(42, 33, 22, 0.35);
+}
